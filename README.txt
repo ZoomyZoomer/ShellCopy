@@ -1,6 +1,4 @@
-# CS_214
-@authors: Eric Yau, Kamil Wisniewski
-NetID: ey164, kcw90
+@author: Kamil Wisniewski
 
 Overview:
 
