@@ -1,0 +1,4 @@
+which *c
+cd testfiles 
+which *c
+ls *txt

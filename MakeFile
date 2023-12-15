@@ -1,0 +1,15 @@
+CC = gcc
+CFlag = -g -Wall -fsanitize=address
+SOURCES = mysh.c 
+EXECUTABLE = mysh 
+
+all: $(EXECUTABLE)
+
+$(EXECUTABLE): $(SOURCES: .c=.0)
+	gcc -g -Wall -fsanitize=address, undefined -std=c99 $^ -o $@
+
+%.o: %.c
+	gcc -g -Wall -fsanitize=address, undefined -std=c99 -c $< -o $@
+
+clean:
+	rm -f $(SOURCES: .c=.0) $(EXECUTABLE)

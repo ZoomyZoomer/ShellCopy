@@ -1,0 +1,3 @@
+cd testfiles
+which junk.c
+which *c

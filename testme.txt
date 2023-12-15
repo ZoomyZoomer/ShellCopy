@@ -1,0 +1,7 @@
+cd testfiles
+pwd
+cd trash
+pwd
+cd cringe
+echo hello
+echo goodbye
